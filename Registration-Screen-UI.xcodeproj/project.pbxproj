@@ -16,6 +16,8 @@
 		74C4567429C1B552005CF3EC /* Registration_Screen_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C4567329C1B552005CF3EC /* Registration_Screen_UITests.swift */; };
 		74C4567E29C1B552005CF3EC /* Registration_Screen_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C4567D29C1B552005CF3EC /* Registration_Screen_UIUITests.swift */; };
 		74C4568029C1B552005CF3EC /* Registration_Screen_UIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C4567F29C1B552005CF3EC /* Registration_Screen_UIUITestsLaunchTests.swift */; };
+		74C4568D29C1BB09005CF3EC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C4568C29C1BB09005CF3EC /* CustomTextField.swift */; };
+		74C4568F29C1BEE0005CF3EC /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C4568E29C1BEE0005CF3EC /* SignUpButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		74C4567929C1B552005CF3EC /* Registration-Screen-UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Registration-Screen-UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C4567D29C1B552005CF3EC /* Registration_Screen_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration_Screen_UIUITests.swift; sourceTree = "<group>"; };
 		74C4567F29C1B552005CF3EC /* Registration_Screen_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration_Screen_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74C4568C29C1BB09005CF3EC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		74C4568E29C1BEE0005CF3EC /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				74C4565E29C1B551005CF3EC /* SceneDelegate.swift */,
 				74C4566029C1B551005CF3EC /* ViewController.swift */,
 				74C4566229C1B551005CF3EC /* Main.storyboard */,
+				74C4568E29C1BEE0005CF3EC /* SignUpButton.swift */,
+				74C4568C29C1BB09005CF3EC /* CustomTextField.swift */,
 				74C4566529C1B551005CF3EC /* Assets.xcassets */,
 				74C4566729C1B551005CF3EC /* LaunchScreen.storyboard */,
 				74C4566A29C1B551005CF3EC /* Info.plist */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C4568D29C1BB09005CF3EC /* CustomTextField.swift in Sources */,
 				74C4566129C1B551005CF3EC /* ViewController.swift in Sources */,
 				74C4565D29C1B551005CF3EC /* AppDelegate.swift in Sources */,
 				74C4565F29C1B551005CF3EC /* SceneDelegate.swift in Sources */,
+				74C4568F29C1BEE0005CF3EC /* SignUpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
